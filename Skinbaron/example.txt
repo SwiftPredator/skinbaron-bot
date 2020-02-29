@@ -1,0 +1,3 @@
+
+cs20 case,0.02
+Gefahrenzone,0.02
