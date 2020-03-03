@@ -8,5 +8,5 @@
  
 The `example.txt` file has to contain the csgo items the bot should scan for. The file contains some examples.
 
-Have fun with my little Project and if you have question you can mail me.
+Have fun with my little Project and if you have questions you can mail me.
 
