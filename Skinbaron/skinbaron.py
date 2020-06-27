@@ -94,7 +94,7 @@ def scanForItems(name, max, buy=False):
 def getBitskinsPriceList(api_key, secret):
     try:
         token = pyotp.TOTP(bitskins_secret)
-        data_bit = {'api_key': '5f899935-6c30-466c-8aed-ce857a8735cf', 'app_id': '730', 'code': token.now()}
+        data_bit = {'api_key': '', 'app_id': '730', 'code': token.now()}
         headers_bit = {'content-type': 'application/json', 'accept': 'application/json'}
         r = requests.post('https://bitskins.com/api/v1/get_all_item_prices', data=json.dumps(data_bit), headers=headers_bit)
         return r.json()
